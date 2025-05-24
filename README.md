@@ -17,4 +17,3 @@ It will allow users to learn Albanian, a language not yet available on the popul
 <hr>
 
 Made using <a href="https://www.youtube.com/watch?v=dP75Khfy4s4">this tutorial</a>
->>>>>>> 068dc32ccece3f7f080586c7da77e0330387b09d
