@@ -1,9 +1,17 @@
 import { neon } from "@neondatabase/serverless";
 import "dotenv/config";
 import { drizzle } from "drizzle-orm/neon-http";
+<<<<<<< HEAD
 import * as schema from "@/db/schema";
 
 const sql = neon(process.env.DATABASE_URL!);
+=======
+
+import * as schema from "@/db/schema";
+
+const sql = neon(process.env.DATABASE_URL!);
+
+>>>>>>> 068dc32ccece3f7f080586c7da77e0330387b09d
 const db = drizzle(sql, { schema });
 
 const main = async () => {
@@ -24,7 +32,11 @@ const main = async () => {
     // Insert courses
     const courses = await db
       .insert(schema.courses)
+<<<<<<< HEAD
       .values([{ title: "Albanian", imageSrc: "/alb.webp" }])
+=======
+      .values([{ title: "Spanish", imageSrc: "/es.svg" }])
+>>>>>>> 068dc32ccece3f7f080586c7da77e0330387b09d
       .returning();
 
     // For each course, insert units
