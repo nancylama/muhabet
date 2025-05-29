@@ -1,6 +1,6 @@
 # Muhabet
 
-This project is a Duolingo clone being built using:
+Duolingo clone built using:
 <ul>
   <li>Next.js</li>
   <li>React</li>
@@ -11,7 +11,7 @@ This project is a Duolingo clone being built using:
   <li>Vercel</li>
 </ul>
 
-It will allow users to learn Albanian, a language not yet available on the popular language learning app.
+Allows users to learn Albanian, a language not yet available on Duolingo.
 
 <br>
 <hr>
